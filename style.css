@@ -1,0 +1,31 @@
+.header {
+    background-color: #75ac9d;
+    height: 90px;
+}
+
+.logo img {
+    height: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar a {
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.navbar a:hover {
+    color: #75ac9d;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
